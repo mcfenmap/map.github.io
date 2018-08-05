@@ -1,0 +1,262 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+.modal{
+	height: 100%;
+}
+
+.modal-backdrop{
+	height: 100%;
+	-webkit-transform: translateZ(0);
+}
+
+#toast-container{
+	-webkit-transform: translateZ(0);
+}
+
+.bootbox-body{
+	color:#000;
+}
+
+.table-vetically td{
+	vertical-align: middle !important;
+}
+
+.panel-buttons{
+	float: left;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.spacing15{
+	margin-top:15px
+}
+
+.spacing20{
+	margin-top:20px
+}
+
+/* .middle5{
+	margin-top: 5px;
+	margin-bottom: 5px;
+} */
+
+.page-title{
+	font-weight: bold;
+	margin-bottom:20px
+}
+
+.has-switch label{
+	background-color: #fff;
+}
+.label-select2{
+	padding-top: 11px !important;
+}
+.button-select2{
+	margin-top: 5px;
+}
+.navbar-fixed-top{
+	-webkit-transform: translateZ(0);
+}
+#think_page_trace_open{
+	z-index:80;
+	-webkit-transform: translateZ(0);
+}
+
+.help-block{
+	color: #949494;
+}
+
+textarea{
+	resize:none
+}
+
+.badge{
+	padding: 7px 7px;
+}
+
+.white-badge{
+	margin-top: 12px;
+}
+
+.white-images{
+	width: 100%;
+}
+
+/**
+ * 百度编辑器CSS BEGIN
+ */
+.edui-container{
+	box-shadow:none;
+	box-sizing: content-box !important;
+	-webkit-box-sizing: content-box !important;
+}
+
+.edui-container{
+	color: #000;
+}
+
+.edui-container p{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+}
+
+.edui-container *{
+	box-sizing: content-box !important;
+	-webkit-box-sizing: content-box !important;
+}
+
+.edui-container .edui-toolbar{
+	box-shadow:none;
+}
+
+.edui-btn-toolbar .edui-combobox{
+	background-color: #fff;
+}
+
+.edui-popup{
+	background: none;
+}
+
+.edui-tab-nav .edui-tab-item.edui-active .edui-tab-text{
+	padding-bottom: 4px;
+	padding-top: 8px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.edui-tab-nav .edui-tab-item .edui-tab-text{
+	padding-bottom: 4px;
+	padding-top: 8px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.edui-dialog-image .edui-image-dragTip{
+	text-shadow: none !important;
+}
+
+#eduiVideoInfo legend {
+	font-size: 12px;
+	border-bottom: 0px;
+	width: auto;
+	margin-bottom: 0px;
+}
+
+.edui-modal-header .edui-title{
+	font-size: 15px;
+}
+
+/**
+ * 百度编辑器CSS END
+ */
+
+.item-top tbody td{
+	vertical-align: top !important;
+}
+.ticket-content{
+	overflow: hidden;
+	color:#000;
+}
+
+.ticket-content img{
+	max-width: 800px;
+	/* width:100%; */
+}
+
+.strong{
+	font-weight: bold !important;
+}
+
+.selectboxit-container *{
+	font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,"Noto Sans",sans-serif,Arial,sans-serif !important;
+}
+
+.modal{
+	/* height: 100%; */
+	-webkit-transform: translateZ(0);
+}
+
+.btn-dropsize{
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.tile-title .title p{
+	margin-top: 8px;
+}
+
+.tile-click{
+	cursor:pointer;
+}
+code{
+	line-height: 2em;
+	padding: 2px 4px;
+	color: #d14;
+	white-space: nowrap;
+	background-color: #f7f7f9;
+	border: 1px solid #e1e1e8;
+	font-family: "Microsoft Yahei",Monaco,Menlo,Consolas,"Courier New",monospace;
+	font-size: 12px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.btn-btnsize{
+	padding-top: 4px;
+	padding-bottom: 5px;
+}
+.selectboxit-container span, .selectboxit-container .selectboxit-options a{
+	height:33px !important;
+}
+.btn-orange.btn-icon i{
+	background-color: #E0691F;
+}
+.label-purple {
+	background-color: #BB56EC;
+}
+.label-grey{
+	background-color: #AEA3B3;
+}
+.page-container .sidebar-menu #main-menu li a i{
+	width:15px;
+}
+.badge-orange{
+	background-color: #E0691F;
+	color:#FFF;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+	cursor: not-allowed;
+	background-color: #F9F9F9;
+}
+.badge.badge-warning {
+	background-color: #FAA916;
+	color: #ffffff;
+}
+
+.panel>.panel-body.with-table{
+	overflow-x: auto;
+}
+
+.white-panel{
+	margin-top: 15px;
+	 margin-bottom: 0px;
+	 color: #000;
+}
+
+@media(max-width: 767px){
+	.dataTables_wrapper {
+		overflow-x: auto;
+		overflow-y: auto;
+	}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution){
+	.select2-search input, .select2-search-choice-close, .select2-container .select2-choice abbr, .select2-container .select2-choice .select2-arrow b {
+		background-image: none !important;
+	}
+}
